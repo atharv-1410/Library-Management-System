@@ -1,0 +1,184 @@
+
+Library Menu:
+1. Add Book
+2. Borrow Book
+3. Return Book
+4. View Available Books
+5. Exit
+Enter your choice: 1  //Case When Publication Year < 0 
+Enter ISBN: a1
+Enter Title: The Lost World
+Enter Author: James Hopkins
+Enter Publication Year: -5  
+Output: Enter a valid publication year greater than 0.
+
+Library Menu:
+1. Add Book
+2. Borrow Book
+3. Return Book
+4. View Available Books
+5. Exit
+Enter your choice: 1 //Successful book addition
+Enter ISBN: a1
+Enter Title: The Lost World
+Enter Author: James Hopkins 
+Enter Publication Year: 2002
+Output: Book added successfully.
+
+Library Menu:
+1. Add Book
+2. Borrow Book
+3. Return Book
+4. View Available Books
+5. Exit
+Enter your choice: 1   //Case when duplicate ISBN is attempted
+Enter ISBN: a1
+Enter Title: The Heroic
+Enter Author: Kate Wilson
+Enter Publication Year: 2004
+Output: A book with the same ISBN already exists.
+
+Library Menu:
+1. Add Book
+2. Borrow Book
+3. Return Book
+4. View Available Books
+5. Exit
+Enter your choice: 1
+Enter ISBN: a2
+Enter Title: The Monk who wore Hat 
+Enter Author: James Austin
+Enter Publication Year: 2010
+Output: Book added successfully.
+
+Library Menu:
+1. Add Book
+2. Borrow Book
+3. Return Book
+4. View Available Books
+5. Exit
+Enter your choice: 1
+Enter ISBN: a3
+Enter Title: The Whitish Band
+Enter Author: Osman Kamara
+Enter Publication Year: 2006
+Output: Book added successfully.
+
+Library Menu:
+1. Add Book
+2. Borrow Book
+3. Return Book
+4. View Available Books
+5. Exit
+Enter your choice: 4  //Display of available books
+Output:
+ISBN                 Title                          Author               Year
+a1                   The Lost World                 James Hopkins        2002
+a2                   The Monk who wore Hat          James Austin         2010
+a3                   The Whitish Band               Osman Kamara         2006
+
+Library Menu:
+1. Add Book
+2. Borrow Book
+3. Return Book
+4. View Available Books
+5. Exit
+Enter your choice: 2
+Enter ISBN to borrow: b1  //Case when book not present in available books is attempted to borrow
+Output: Book is either not available or already borrowed.
+
+Library Menu:
+1. Add Book
+2. Borrow Book
+3. Return Book
+4. View Available Books
+5. Exit
+Enter your choice: 2
+Enter ISBN to borrow: a2  //Successful borrow
+Output: Book borrowed successfully.
+
+Library Menu:
+1. Add Book
+2. Borrow Book
+3. Return Book
+4. View Available Books
+5. Exit
+Enter your choice: 4 //Successful updation of availability upon borrowing
+Output:
+ISBN                 Title                          Author               Year
+a1                   The Lost World                 James Hopkins        2002
+a3                   The Whitish Band               Osman Kamara         2006
+
+Library Menu:
+1. Add Book
+2. Borrow Book
+3. Return Book
+4. View Available Books
+5. Exit
+Enter your choice: 3
+Enter ISBN to return: a1  //Case when already borrowed book is attempted to reborrow
+Output: Book was not borrowed.
+
+Library Menu:
+1. Add Book
+2. Borrow Book
+3. Return Book
+4. View Available Books
+5. Exit
+Enter your choice: 3  //Succesful returning of book
+Enter ISBN to return: a2
+Output: Book returned successfully.
+
+Library Menu:
+1. Add Book
+2. Borrow Book
+3. Return Book
+4. View Available Books
+5. Exit
+Enter your choice: 4  //Successful updation to the availability upon retuning of book
+Output:
+ISBN                 Title                          Author               Year
+a1                   The Lost World                 James Hopkins        2002
+a2                   The Monk who wore Hat          James Austin         2010
+a3                   The Whitish Band               Osman Kamara         2006
+
+Library Menu:
+1. Add Book
+2. Borrow Book
+3. Return Book
+4. View Available Books
+5. Exit
+Enter your choice: 2
+Enter ISBN to borrow: a1
+Output: Book borrowed successfully.
+
+Library Menu:
+1. Add Book
+2. Borrow Book
+3. Return Book
+4. View Available Books
+5. Exit
+Enter your choice: 2
+Enter ISBN to borrow: a1
+Output: Book is either not available or already borrowed.
+
+Library Menu:
+1. Add Book
+2. Borrow Book
+3. Return Book
+4. View Available Books
+5. Exit
+Enter your choice: 4
+Output:
+ISBN                 Title                          Author               Year
+a2                   The Monk who wore Hat          James Austin         2010
+a3                   The Whitish Band               Osman Kamara         2006
+
+Library Menu:
+1. Add Book
+2. Borrow Book
+3. Return Book
+4. View Available Books
+5. Exit
+Enter your choice: 5
+Output: Exiting...
